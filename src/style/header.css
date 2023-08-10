@@ -1,0 +1,23 @@
+header {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 4rem;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+.navbar span {
+    color:darkred;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+    letter-spacing: 0.1rem;
+    margin:0 1rem;
+}
