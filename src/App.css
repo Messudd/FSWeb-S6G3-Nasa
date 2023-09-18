@@ -6,6 +6,7 @@
 }
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -59,6 +60,7 @@ main .right_side {
 .scroll_container {
    border-left: 1px solid darkred;
    overflow: auto;
+   padding: 0 15px;
 }
 .today_content {
     display: flex;
@@ -66,7 +68,6 @@ main .right_side {
     align-items: center;
     justify-content: space-evenly;
     gap: 30px;
-    width: 100%;
     padding: 30px;
     min-height: 600px;
     background-color:darkred;
